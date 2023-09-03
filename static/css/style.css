@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* -------------------- COLOR SCHEME -------------------- */
+:root{
+    --primary-color: rgb(234, 234, 234);
+    --primary-color-2: rgb(208, 208, 208);
+    --primary-color-3: rgb(194, 194, 194);
+
+    --secondary-color: rgb(47, 47, 47);
+    --secondary-color-2: rgb(65, 65, 65);
+    --secondary-color-3: rgb(87, 87, 87);
+
+    --tertiary-color: rgb(20, 33, 61);
+    --tertiary-color-2: rgb(252, 163, 17);
+    --tertiary-color-3: rgb(229, 229, 229);
+}
+
+/*.dark-theme {*/
+/*    --primary-color: rgb(57, 62, 70);*/
+/*}*/
+
+/* -------------------- MAIN -------------------- */
+html {
+    font-family: 'Spectral SC', serif;
+}
+
+/* -------------------- SCROLLBAR -------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--secondary-color-3);
+}
+
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1 {
+    color: var(--secondary-color);
+    font-size: 48px;
+}
