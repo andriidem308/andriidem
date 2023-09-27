@@ -17,15 +17,29 @@
     {#  ******************** FONTS ******************** #}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Inter&family=Leckerli+One&family=Spectral+SC:wght@500&display=swap" rel="stylesheet">
 
     {#  ******************** LOCAL STYLES ******************** #}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 </head>
 <body>
-    {% include '_navigation.html' %}
-    {% block content %}
-    {% endblock %}
+    <header>
+        {% include '_header.html' %}
+    </header>
+
+    <main>
+
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <aside>
+    </aside>
+
+    <footer>
+        {% include '_footer.html' %}
+    </footer>
+<script src="{% static "js/theme-switcher.js" %}"></script>
 </body>
 </html>
