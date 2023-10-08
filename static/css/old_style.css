@@ -17,8 +17,8 @@
     --secondary-color: #5c636e;
     --secondary-hover-color: #7c8894;
 
-    --nav-text-color: #d3d3d3;
-    --nav-text-hover-color: #f5cd68;
+    --secondary-text-color: #d3d3d3;
+    --primary-color: #f5cd68;
 
 
     --success-color: #2bb427;
@@ -128,12 +128,12 @@ header .flex-container {
 }
 
 .logo a {
-    color: var(--nav-text-color);
+    color: var(--secondary-text-color);
     font-family:  'Leckerli One', cursive;
 }
 
 .logo a:hover {
-    color: var(--nav-text-hover-color);
+    color: var(--primary-color);
 }
 
 .logo, .navigation {
@@ -157,11 +157,11 @@ header .flex-container {
 .navigation a {
     display: flex;
     padding: 1em;
-    color: var(--nav-text-color);
+    color: var(--secondary-text-color);
 }
 
 .navigation a:hover {
-    color: var(--nav-text-hover-color);
+    color: var(--primary-color);
 }
 
 /* *********** media queries *********** */

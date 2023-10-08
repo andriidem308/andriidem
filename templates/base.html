@@ -13,11 +13,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     {#  ******************** REMOTE STYLES ******************** #}
+{#    <script src="https://kit.fontawesome.com/f514e78ecc.js" crossorigin="anonymous"></script>#}
+    <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
 
     {#  ******************** FONTS ******************** #}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Inter&family=Leckerli+One&family=Spectral+SC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Pacifico&family=Short+Stack&family=Sniglet&display=swap" rel="stylesheet">
 
     {#  ******************** LOCAL STYLES ******************** #}
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -29,13 +35,13 @@
         {% include '_header.html' %}
     </header>
 
-    <main>
+    <main class="container">
         {% block content %}
         {% endblock %}
     </main>
 
     <aside>
-        <div>aside</div>
+{#        <div>aside</div>#}
     </aside>
 
     <footer>
