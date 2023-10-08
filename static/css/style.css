@@ -11,6 +11,8 @@
     --text-hover-color: #474e57;
     --secondary-hover-color: #7c8894;
 
+    --brand-color: #063d69;
+    --blue-color: #1d5d8f;
     --success-color: #2bb427;
     --error-color: #ce2147;
     --action-color: #f8b500;
@@ -254,6 +256,8 @@ header .flex-container {
 /*}*/
 
 .primary {color: var(--primary-color)}
+.brand-color {color: var(--brand-color)}
+.blue {color: var(--blue-color)}
 .success {color: var(--success-color)}
 
 .section {
@@ -270,8 +274,29 @@ header .flex-container {
     font-size: 72px;
     font-family: 'Gabarito', cursive;
 
-    -webkit-text-stroke: 1px black;
+    /*-webkit-text-stroke: 1px black;*/
+
 }
+
+.about-me-text span {
+    -webkit-text-stroke: 1.2px black;
+}
+
+/*.blue-border {*/
+/*    text-shadow:*/
+/*            -1px -1px 0 var(--brand-color),*/
+/*            1px -1px 0 var(--brand-color),*/
+/*            -1px  1px 0 var(--brand-color),*/
+/*            1px  1px 0 var(--brand-color);*/
+/*}*/
+
+/*.yellow-border {*/
+/*    text-shadow:*/
+/*            -1px -1px 0 var(--primary-color),*/
+/*            1px -1px 0 var(--primary-color),*/
+/*            -1px  1px 0 var(--primary-color),*/
+/*            1px  1px 0 var(--primary-color);*/
+/*}*/
 
 .footer {
     width: 100%;
