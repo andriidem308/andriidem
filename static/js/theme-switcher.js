@@ -1,5 +1,5 @@
 const body = document.querySelector('body');
-const button = document.querySelector('#darkbutton');
+const button = document.querySelector('#darkmode-label');
 function toggleDark() {
     if (!body.classList.contains('dark-theme')) {
         body.classList.add('dark-theme');
@@ -11,8 +11,8 @@ function toggleDark() {
 }
 
 if (localStorage.getItem("theme") === "dark") {
-document.getElementById("darkbutton-checkbox").checked = true;
+document.getElementById("darkmode-checkbox").checked = true;
 body.classList.add('dark-theme');
 }
 
-document.querySelector('#darkbutton').addEventListener('change', toggleDark);
+document.querySelector('#darkmode-label').addEventListener('change', toggleDark);
