@@ -1,42 +1,15 @@
 <div class="flex-container">
     <div class="logo"><a href="{% url 'home' %}">andriidem</a></div>
     <ul class="navigation">
-        <li><a href="{% url 'home' %}">About</a></li>
-        <li><a href="{% url 'home' %}">Skills</a></li>
-        <li><a href="{% url 'home' %}">Work</a></li>
-        <li><a href="{% url 'home' %}">Experience</a></li>
-        <li><a href="{% url 'home' %}">Contact</a></li>
-{#        <li>#}
-{#            <label id="darkbutton" class="darkmode">#}
-{#                <input id="darkbutton-checkbox" type="checkbox">#}
-{#                <span class="slider"></span>#}
-{#            </label>#}
-{#        </li>#}
+        <li><a class="nav-link" id="nav-about">About</a></li>
+        <li><a class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a class="nav-link" id="nav-work">Work</a></li>
+        <li><a class="nav-link" id="nav-experience">Experience</a></li>
+        <li><a class="nav-link" id="nav-contact">Contact</a></li>
     </ul>
-
     <div class="resume-button-container">
-        <button class="resume-button">Resume</button>
+        <a href="/download_resume" download="CV_Andrii_Demchenko.pdf">
+            <button class="resume-button">Resume</button>
+        </a>
     </div>
-
-{#    <label id="darkmode-label" class="darkmode">#}
-{#        <input id="darkmode-checkbox" type="checkbox">#}
-{#        <span class="slider"></span>#}
-{#    </label>#}
 </div>
-
-{#<div class="flex-container-mobile">#}
-{#    <div class="logo"><a href="{% url 'home' %}">andriidem</a></div>#}
-{#    <ul class="navigation">#}
-{#        <li><a href="{% url 'home' %}">Home</a></li>#}
-{#        <li><a href="{% url 'home' %}">About</a></li>#}
-{#        <li><a href="{% url 'home' %}">Blog</a></li>#}
-{#        <li><a href="{% url 'home' %}">Demo</a></li>#}
-{#        <li><a href="{% url 'home' %}">Contact</a></li>#}
-{#        <li>#}
-{#            <label id="darkbutton" class="darkmode">#}
-{#                <input id="darkbutton-checkbox" type="checkbox">#}
-{#                <span class="slider"></span>#}
-{#            </label>#}
-{#        </li>#}
-{#    </ul>#}
-{#</div>#}

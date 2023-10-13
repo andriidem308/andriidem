@@ -12,6 +12,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    {#  ******************** REMOTE SCRIPTS ******************** #}
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     {#  ******************** REMOTE STYLES ******************** #}
 {#    <script src="https://kit.fontawesome.com/f514e78ecc.js" crossorigin="anonymous"></script>#}
     <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
@@ -49,7 +52,8 @@
     <footer>
         {% include '_footer.html' %}
     </footer>
-<script src="{% static "js/theme-switcher.js" %}"></script>
+<script src="{% static "js/main.js" %}"></script>
+{#<script src="{% static "js/theme-switcher.js" %}"></script>#}
 <script src="{% static "js/mobile-navigation.js" %}"></script>
 </body>
 </html>
